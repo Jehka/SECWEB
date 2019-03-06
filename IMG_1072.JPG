@@ -1,0 +1,4 @@
+<?php
+echo exec("cat ../private.php", $res);
+var_dump($res);
+?>
